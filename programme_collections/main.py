@@ -31,3 +31,9 @@ personnes.append(nouvelle_personne) # append veut dire "ajouter"
 del personnes[1]
 
 print(personnes)
+
+def afficher_personnes(c):
+    for i in c:
+        print(i)
+
+afficher_personnes(personnes)
