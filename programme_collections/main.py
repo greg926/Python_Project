@@ -25,15 +25,25 @@
 personnes = ["Mélanie", "Jean", "Martin", "Alice"]
 nouvelle_personne = "David"
 
-print(personnes)
+# print(personnes)
 
 personnes.append(nouvelle_personne) # append veut dire "ajouter"
 del personnes[1]
 
-print(personnes)
+# print(personnes)
 
 def afficher_personnes(c):
     for i in c:
         print(i)
 
-afficher_personnes(personnes)
+def modifier_valeur(a):
+    a[0] = 10
+
+
+
+test = [1, 2, 3, 4]
+print(test)
+modifier_valeur(test)
+print(test)
+
+# afficher_personnes(personnes)
