@@ -50,3 +50,36 @@ print(test)
 
 # -------------- FONCTIONS ET TUPLES -------------------
 
+
+
+"""def obtenir_informations():
+    return "Mélanie", 37, 1.60
+
+def afficher_informations(nom, age, taille):
+    print(f"Informations: nom: {nom}, age: {age}, taille: {taille}")
+
+infos = obtenir_informations()
+afficher_informations(*infos)
+
+
+print(*infos) # unpack tuple
+print(infos[0], infos[1], infos[2])
+
+# infos = obtenir_informations()
+# print("nom: " + infos[0])
+# print("age: " + str(infos[1]))
+# print("taille: " +str(infos[2]))
+
+#nom, age, taille = obtenir_informations()
+#afficher_informations(nom, age, taille)"""
+
+# -------------- SLICES -------------------
+personnes = ("Mélanie", "Jean", "Martin", "Alice", "Pierre", "Paul")
+
+# [star:stop:step]
+
+# for i in personnes[::-2]:
+#    print(i)
+
+nom = "Jean"
+print(nom[::-1])
