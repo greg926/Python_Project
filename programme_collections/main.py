@@ -22,7 +22,7 @@
 # print(valeurs[-1])
 
 # -------------- lISTES -------------------
-personnes = ["Mélanie", "Jean", "Martin", "Alice"]
+"""personnes = ["Mélanie", "Jean", "Martin", "Alice"]
 nouvelle_personne = "David"
 
 # print(personnes)
@@ -46,4 +46,7 @@ print(test)
 modifier_valeur(test)
 print(test)
 
-# afficher_personnes(personnes)
+# afficher_personnes(personnes)"""
+
+# -------------- FONCTIONS ET TUPLES -------------------
+
